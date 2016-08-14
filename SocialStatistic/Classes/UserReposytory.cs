@@ -26,15 +26,15 @@ namespace SocialStatistic.Classes
         }
         public void Add(User item)
         {
-            _users.Add(item.id, item);
+            _users.Add(item.uid, item);
         }
         public void Update(User item)
         {
-            _users[item.id] = item;
+            _users[item.uid] = item;
         }
         public void Delete(User item)
         {
-            _users.Remove(item.id);
+            _users.Remove(item.uid);
         }
         public int count()
         {

@@ -162,9 +162,11 @@ button,
 input,
 select,
 textarea {
-  margin: 0;
   font-family: inherit;
   font-size: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 button,
@@ -332,6 +334,8 @@ input,
 select[multiple],
 textarea {
   background-image: none;
+    height: 196px;
+    width: 441px;
 }
 
 a {
@@ -353,6 +357,7 @@ a:focus {
 
 img {
   vertical-align: middle;
+    margin-left: 193px;
 }
 
 .img-responsive {

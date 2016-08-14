@@ -14,6 +14,7 @@ namespace SocialStatistic.Classes
         /// <param name="source">Группа соц сети</param>
         public void process(String source)
         {
+            _Users.Clear();
             //создаем хранилище данных о пользователях
         
           //  if (0 == _Users.count() )
